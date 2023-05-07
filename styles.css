@@ -59,7 +59,7 @@ footer {
   text-align: right;
 }
 
-.collapsible {
+.collapsible, .download {
   background-color: #4caf50;
   color: white;
   cursor: pointer;
@@ -72,8 +72,18 @@ footer {
 }
 
 .active,
-.collapsible:hover {
+.collapsible:hover, .download:hover {
   background-color: #3e8e41;
+}
+
+.download {
+  width: 25%;
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
 }
 
 .content {
