@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+header h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+section {
+  display: flex;
+  line-height: 22px;
+}
+
+nav {
+  flex: 1;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+article {
+  flex: 3;
+  padding: 20px;
+}
+
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.collapsible {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active,
+.collapsible:hover {
+  background-color: #3e8e41;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 20px;
+  /* adjust this value to change the size of the icon */
+}
+
+.margin-top-0 {
+  margin-top: 0px;
+}
+
+footer {
+  font-size: 12px;
+}
+
+hr {
+  margin: 30px 0;
+}
